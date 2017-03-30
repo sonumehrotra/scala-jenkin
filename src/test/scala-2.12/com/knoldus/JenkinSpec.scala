@@ -11,7 +11,7 @@ class JenkinSpec extends FlatSpec{
   }
 
   "Mul method" should "return the product of two numbers" in {
-    val result = obj.sum(5,4)
+    val result = obj.mul(5,4)
     assert(result === 20)
   }
 }
